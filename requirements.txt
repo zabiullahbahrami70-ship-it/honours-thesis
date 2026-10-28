@@ -1,0 +1,17 @@
+# Run `pip freeze` in the Colab session that produced the results and paste the
+# exact versions here before submission, so the results can be reproduced.
+torch
+torchvision
+transformers
+peft
+bitsandbytes
+accelerate
+datasets
+shap
+scikit-learn
+scipy
+numpy
+pandas
+matplotlib
+pillow
+wandb

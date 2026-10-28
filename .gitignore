@@ -1,0 +1,31 @@
+# Data: never commit images, datasets or caption files
+hm_img/
+*.jsonl
+*.csv.gz
+hateful_memes_local*/
+*.arrow
+*.parquet
+
+# Model weights and saved outputs
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.npz
+results/
+checkpoints/
+maps_*/
+per_example_*.csv
+
+# Python and Colab
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.env
+
+# Credentials: never commit keys or tokens
+*.key
+secrets.json
+kaggle.json
+wandb/
